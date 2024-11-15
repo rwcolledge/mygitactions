@@ -7,3 +7,9 @@ jobs:
     steps:
     - name: Checkout code
       run: echo "Here is a test"
+  connect-remote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Show remote databases
+      - run: 
