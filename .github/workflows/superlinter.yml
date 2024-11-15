@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      run: "Echo here is a test"
+      run: echo "Here is a test"
